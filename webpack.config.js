@@ -1,4 +1,5 @@
 const path = require("path");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -32,5 +33,9 @@ module.exports = {
     compress: true,
     port: 3000,
     open: true,
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin({ parallel: true })],
   },
 };
