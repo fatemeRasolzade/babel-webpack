@@ -6,3 +6,4 @@
 6. npm run babel
 8. npm install -g live-server
 7. live-server public
+8. npm i --save-dev webpack webpack-cli

@@ -1,0 +1,1 @@
+(new class{showText(){console.log("hello world!!!")}}).showText(),console.log("fate1424 is good developer");
