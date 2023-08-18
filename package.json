@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "babel": "babel app.js -o bundle.js --presets @babel/preset-env"
+    "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env"
   },
   "author": "fateme",
   "license": "ISC",
