@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env --watch",
-    "build": "webpack"
+    "build": "webpack --watch",
+    "dev": "webpack-dev-server"
   },
   "author": "fateme",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "css-loader": "^6.8.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

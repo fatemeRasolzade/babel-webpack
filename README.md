@@ -9,3 +9,4 @@
 8. npm i --save-dev webpack webpack-cli
 9. npm i -D babel-loader @babel/core
 10. npm i -D style-loader css-loader
+11. npm i --save-dev webpack-dev-server
