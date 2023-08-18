@@ -1,3 +1,5 @@
+import { loader } from "./loader";
+
 const username = "fate1424";
 const role = "developer";
 
@@ -11,3 +13,4 @@ class User {
 
 new User().showText();
 console.log(getUser());
+console.log(loader);
