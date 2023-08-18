@@ -5,6 +5,9 @@ const getUser = () => `${username} is good ${role}`;
 
 class User {
   showText() {
-    console.log("hello world!");
+    console.log("hello world!!!");
   }
 }
+
+new User().showText();
+console.log(getUser());

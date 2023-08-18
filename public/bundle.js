@@ -18,8 +18,10 @@ var User = /*#__PURE__*/function () {
   _createClass(User, [{
     key: "showText",
     value: function showText() {
-      console.log("hello world!");
+      console.log("hello world!!!");
     }
   }]);
   return User;
 }();
+new User().showText();
+console.log(getUser());
