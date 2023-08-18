@@ -7,3 +7,4 @@
 8. npm install -g live-server
 7. live-server public
 8. npm i --save-dev webpack webpack-cli
+9. npm i -D babel-loader @babel/core
