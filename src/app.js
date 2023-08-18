@@ -1,4 +1,5 @@
 import { loader } from "./loader";
+import "./css/style.css"
 
 const username = "fate1424";
 const role = "developer";
